@@ -3,7 +3,8 @@
 	"version": "1.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "nodemon . --exec babel-node"
+		"dev": "nodemon . --exec babel-node",
+		"kill node win": "taskkill /f /im node.exe"
 	},
 	"dependencies": {
 		"cookie-parser": "1.4.6",
